@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X8 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="4.77562in" height="1.43707in" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 5389 1622"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <font id="FontID0" horiz-adv-x="749" font-variant="normal" style="fill-rule:nonzero" font-weight="700">
+	<font-face 
+		font-family="Nexa Bold">
+		<font-face-src>
+			<font-face-name name="NexaBold"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="v" horiz-adv-x="569" d="M418.001 494l-68.0004 -165.001 -75.0002 -205.999 -76.0016 207.999 -67.9978 163.001 -133.002 0 211.001 -496.001 132 0 210 496.001 -132.999 0z"/>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"Nexa Bold";font-variant:normal;font-weight:bold;src:url("#FontID0") format(svg)}
+    .fil0 {fill:#96989A}
+    .fil1 {fill:#1984E6}
+    .fil3 {fill:#96989A;fill-rule:nonzero}
+    .fil2 {fill:#1984E6;fill-rule:nonzero}
+    .fnt0 {font-weight:bold;font-size:1730.27px;font-family:'Nexa Bold'}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0" d="M5126 758l85 -59 178 255 -85 59 -178 -255zm44 -67l12 17 -37 26 -12 -18c-25,14 -54,21 -85,21 -100,0 -182,-81 -182,-182 0,-100 82,-181 182,-181 101,0 182,81 182,181 0,54 -23,102 -60,136zm-122 21c-87,0 -157,-70 -157,-157 0,-86 70,-157 157,-157 87,0 157,71 157,157 0,87 -70,157 -157,157z"/>
+  <text x="3" y="1287"  class="fil1 fnt0">v</text>
+  <path class="fil2" d="M1612 552c-49,-85 -158,-139 -272,-139 -249,-1 -444,153 -444,447 0,299 186,455 439,453 95,-2 228,-50 277,-151l0 125 209 0 0 -855 -209 0 0 120zm-253 50c332,0 332,517 0,517 -140,0 -252,-97 -252,-259 0,-163 112,-258 252,-258z"/>
+  <path class="fil2" d="M2717 1287l0 -457c0,-112 71,-211 185,-211 114,0 161,95 161,208l0 460 211 0 0 -460c0,-256 -120,-405 -362,-405 -111,0 -209,35 -285,156 -49,-118 -151,-160 -253,-160 -81,0 -180,32 -225,118l0 -104 -211 0 0 855 211 0 0 -457c0,-112 68,-214 182,-214 116,0 175,102 175,214l0 457 211 0z"/>
+  <path class="fil2" d="M3863 1104c-144,0 -242,-109 -242,-243 0,-133 90,-242 242,-242 152,0 242,109 242,242 0,134 -98,243 -242,243zm-261 518l0 -435c60,93 193,121 283,121 274,0 431,-197 431,-447 0,-250 -174,-446 -437,-446 -97,0 -212,42 -277,137l0 -120 -211 0 0 1190 211 0z"/>
+  <polygon class="fil3" points="4943,918 4943,1287 5154,1287 5154,820 4943,820 "/>
+  <path class="fil3" d="M4335 434l0 180 159 0 0 673 212 0 0 -673 105 0c-5,-19 -7,-38 -7,-59 0,-44 12,-85 32,-121l-130 0c0,-113 83,-207 193,-222l0 -212c-226,16 -405,204 -405,434l-159 0z"/>
+  <path class="fil2" d="M4924 555c0,165 249,165 249,0 0,-164 -249,-164 -249,0z"/>
+ </g>
+</svg>
