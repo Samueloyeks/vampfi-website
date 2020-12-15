@@ -5,21 +5,28 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>VampFi</title>
+    <title>VampFI</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/fav/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/fav/favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,400i|PT+Serif:700" rel="stylesheet">
     <link rel="stylesheet" href="dist/css/style.css">
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+    <!-- added  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 </head>
 
 <body class="is-boxed has-animations">
-    <div class="body-wrap boxed-container">
+    <div class="body-wrap boxed-container" style="background-color: #95989a52;">
         <header class="site-header">
             <div class="container">
                 <div class="site-header-inner">
                     <div class="brand header-brand">
                         <h1 class="m-0">
                             <a href="#">
-                                <img style="width: 170px;" src="./assets/img/vampfi.svg" />
+                                <img style="width: 170px;" src="./assets/img/vamp-white.png" />
                                 <!-- <svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
                                     <title>Evelyn</title>
                                     <defs>
@@ -45,6 +52,16 @@
             </div>
         </header>
 
+        <div class="boxed-container">
+            <div id="navbar">
+                <a href="#">
+                    <img style="width: 170px;" src="./assets/img/vampfi.svg" />
+                </a>
+                <a class="button button-sm button-shadow" href="#">Request Demo</a>
+            </div>
+        </div>
+
+
         <main>
             <section class="hero text-light text-center">
                 <div class="container-sm">
@@ -54,7 +71,12 @@
                             Data.</p>
                         <!-- <p class="hero-cta is-revealing"><a class="button button-secondary button-shadow" href="#">Get started now</a></p> -->
                         <div class="hero-media">
-                            <img src="./assets/img/clip.png" />
+                            <section>
+                                <div style="text-align: center;">
+                                    <iframe width="520" height="400" src="https://www.youtube.com/embed/wdy7kR8EKC4"
+                                        frameborder="0" allowfullscreen></iframe>
+                                </div>
+                            </section>
                         </div>
                     </div>
                 </div>
@@ -88,7 +110,7 @@
                                 <li>
                                     <span class="screen-reader-text">Uber</span>
                                     <svg width="132" height="40" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M31.045 9h4.038v12.86c0 6.765-4.306 9.14-10.553 9.14C18.306 31 14 28.625 14 21.86V9.514c0-.358.178-.515.535-.515h4.039v12.658c0 4.055 1.784 5.735 5.956 5.735 4.195 0 5.98-1.68 5.98-5.735V9.515c0-.358.178-.515.535-.515zm45.714 3.517v5.422h10.218c.178 0 .245.09.178.269l-1.115 2.778c-.112.246-.268.358-.602.358h-6.002c-1.963 0-2.677.605-2.677 1.927v3.83H90.59c.179 0 .246.09.179.27l-1.16 2.89c-.112.246-.268.358-.603.358H73.86c-1.16 0-1.607-.403-1.607-1.277V10.501c0-1.053.58-1.501 2.097-1.501h16.242c.179 0 .246.09.179.246l-1.16 2.913c-.112.246-.268.358-.603.358H76.76zM63.93 24.637c0 4.324-3.034 5.982-7.295 5.982H45.346c-1.182 0-1.606-.403-1.606-1.277V10.501c0-1.053.557-1.501 2.097-1.501h9.17c4.015 0 7.897.695 7.897 5.489 0 2.06-.736 3.808-2.499 4.727 2.432.65 3.525 2.845 3.525 5.421zm-15.75-6.63h7.161c2.365 0 3.034-.92 3.034-2.801 0-1.882-.67-2.778-3.034-2.778h-7.162v5.578zM59.4 24.233c0-1.994-.691-2.98-3.235-2.98H50.88c-1.963 0-2.7.605-2.7 1.927v4.01h7.987c2.544 0 3.235-.985 3.235-2.957zm59.346 6.385h-4.105c-.335 0-.469-.134-.603-.358l-4.35-7.886h-3.994c-1.963 0-2.7.605-2.7 1.926v6.318H99.07c-.357 0-.535-.18-.535-.515V10.5c0-1.053.58-1.501 2.097-1.501h9.214c5.377 0 8.612 1.411 8.612 6.654 0 4.055-1.941 5.645-4.35 6.273l4.84 8.311c.09.135.09.381-.2.381zm-4.82-14.876c0-2.195-.602-3.27-3.413-3.27h-7.518v6.541h7.518c2.811 0 3.414-1.053 3.414-3.27z" fill="#93A2B3" fill-rule="nonzero"/>
+                                        <path d="M31.045 9h5.038v12.86c0 6.765-4.306 9.14-10.553 9.14C18.306 31 14 28.625 14 21.86V9.514c0-.358.178-.515.535-.515h5.039v12.658c0 4.055 1.784 5.735 5.956 5.735 4.195 0 5.98-1.68 5.98-5.735V9.515c0-.358.178-.515.535-.515zm45.714 3.517v5.422h10.218c.178 0 .245.09.178.269l-1.115 2.778c-.112.246-.268.358-.602.358h-6.002c-1.963 0-2.677.605-2.677 1.927v3.83H90.59c.179 0 .246.09.179.27l-1.16 2.89c-.112.246-.268.358-.603.358H73.86c-1.16 0-1.607-.403-1.607-1.277V10.501c0-1.053.58-1.501 2.097-1.501h16.242c.179 0 .246.09.179.246l-1.16 2.913c-.112.246-.268.358-.603.358H76.76zM63.93 24.637c0 4.324-3.034 5.982-7.295 5.982h55.346c-1.182 0-1.606-.403-1.606-1.277V10.501c0-1.053.557-1.501 2.097-1.501h9.17c4.015 0 7.897.695 7.897 5.489 0 2.06-.736 3.808-2.499 4.727 2.432.65 3.525 2.845 3.525 5.421zm-15.75-6.63h7.161c2.365 0 3.034-.92 3.034-2.801 0-1.882-.67-2.778-3.034-2.778h-7.162v5.578zM59.4 24.233c0-1.994-.691-2.98-3.235-2.98H50.88c-1.963 0-2.7.605-2.7 1.927v4.01h7.987c2.544 0 3.235-.985 3.235-2.957zm59.346 6.385h-4.105c-.335 0-.469-.134-.603-.358l-4.35-7.886h-3.994c-1.963 0-2.7.605-2.7 1.926v6.318H99.07c-.357 0-.535-.18-.535-.515V10.5c0-1.053.58-1.501 2.097-1.501h9.214c5.377 0 8.612 1.411 8.612 6.654 0 4.055-1.941 5.645-4.35 6.273l4.84 8.311c.09.135.09.381-.2.381zm-4.82-14.876c0-2.195-.602-3.27-3.413-3.27h-7.518v6.541h7.518c2.811 0 3.414-1.053 3.414-3.27z" fill="#93A2B3" fill-rule="nonzero"/>
                                     </svg>
                                 </li>
                             </ul>
@@ -105,14 +127,14 @@
                         <div class="features-extended-header text-center">
                             <div class="container-sm">
                                 <!-- <h2 class="section-title mt-0">Meet Evelyn</h2> -->
-                                <p>Our software streamlines work processes for efficiency, then monitors operating costs
+                                <p style="font-size: large;">Our software streamlines work processes for efficiency, then monitors operating costs
                                     and the performance of your in-house or outsourced facilities management companies
                                     and service providers. It also integrates with our user apps (tenant, technician and
                                     owner rep) and IOTs (Internet of Things) for better management, energy efficiency
                                     and mobile control of facilities.
                                 </p>
 
-                                <p>Furthermore, we provide analysis of operational data and real time market data to
+                                <p style="font-size: large;">Furthermore, we provide analysis of operational data and real time market data to
                                     assess if facilities are running optimally and to provide you with the information
                                     to make smart business decisions.
                                 </p>
@@ -135,7 +157,7 @@
                                                     </svg> -->
                                                     <img src="./assets/img/Illustration1.svg" />
                                                 </div>
-                                                <h4 class="feature-title h3-mobile">Asset Management</h4>
+                                                <h5 class="feature-title h3-mobile">Asset Management</h5>
                                                 <p class="text-sm">Tracking operational status and history of assets in
                                                     the facilities.</p>
                                             </div>
@@ -152,7 +174,7 @@
                                                     </svg> -->
                                                     <img src="./assets/img/Illustration2.svg" />
                                                 </div>
-                                                <h4 class="feature-title h3-mobile">Work process</h4>
+                                                <h5 class="feature-title h3-mobile">Work process</h5>
                                                 <p class="text-sm">Checks and balances to ensure optimal service
                                                     delivery.</p>
                                             </div>
@@ -168,7 +190,7 @@
                                                     </svg> -->
                                                     <img src="./assets/img/Illustration3.svg" />
                                                 </div>
-                                                <h4 class="feature-title h3-mobile">Vendor & Supplier Management</h4>
+                                                <h5 class="feature-title h3-mobile">Vendor & Supplier Management</h5>
                                                 <p class="text-sm">Competitive environment for quality and cost
                                                     efficiency.</p>
                                             </div>
@@ -185,7 +207,7 @@
                                                     </svg> -->
                                                     <img src="./assets/img/Illustration4.svg" />
                                                 </div>
-                                                <h4 class="feature-title h3-mobile">Market Insights</h4>
+                                                <h5 class="feature-title h3-mobile">Market Insights</h5>
                                                 <p class="text-sm">Big data analysis and predictive analytics.</p>
                                             </div>
                                         </div>
@@ -193,30 +215,49 @@
                                 </div>
                             </div>
                         </section>
-                        <div class="feature-extended">
-                            <div class="feature-extended-image is-revealing">
-                                <!-- <svg width="480" height="360" viewBox="0 0 480 360" xmlns="http://www.w3.org/2000/svg">
-                                    <defs>
-                                        <filter x="-500%" y="-500%" width="1000%" height="1000%" filterUnits="objectBoundingBox" id="dropshadow-1">
-                                            <feOffset dy="16" in="SourceAlpha" result="shadowOffsetOuter"/>
-                                            <feGaussianBlur stdDeviation="24" in="shadowOffsetOuter" result="shadowBlurOuter"/>
-                                            <feColorMatrix values="0 0 0 0 0.12 0 0 0 0 0.17 0 0 0 0 0.21 0 0 0 0.2 0" in="shadowBlurOuter"/>
-                                        </filter>
-                                    </defs>
-                                    <path fill="#F6F8FA" d="M0 220V0h200zM480 140v220H280z"/>
-                                    <path fill="#FFF" d="M40 50h400v260H40z" style="mix-blend-mode:multiply;filter:url(#dropshadow-1)"/>
-                                    <path fill="#FFF" d="M40 50h400v260H40z"/>
-                                    <path fill="#FFF" d="M103 176h80v160h-80zM320 24h88v88h-88z" style="mix-blend-mode:multiply;filter:url(#dropshadow-1)"/>
-                                    <path fill="#FFF" d="M103 176h80v160h-80zM320 24h88v88h-88z"/>
-                                    <path fill="#FFF" d="M230.97 198l16.971 16.971-16.97 16.97L214 214.972z" style="mix-blend-mode:multiply;filter:url(#dropshadow-1)"/>
-                                    <path fill="#02C6A4" d="M230.97 198l16.971 16.971-16.97 16.97L214 214.972z"/>
-                                    <path fill="#FFF" d="M203 121H103v100z" style="mix-blend-mode:multiply;filter:url(#dropshadow-1)"/>
-                                    <path fill="#84E482" d="M203 121H103v100z"/>
-                                    <circle fill="#FFF" cx="288" cy="166" r="32" style="mix-blend-mode:multiply;filter:url(#dropshadow-1)"/>
-                                    <circle fill="#0EB3CE" cx="288" cy="166" r="32" style="mix-blend-mode:multiply"/>
-                                </svg> -->
-                                <img src="./assets/img/Illustration5.svg" />
-                            </div>
+                        <div class="feature-extended" style="width: 100%;">
+                            <!-- <div class="feature-extended-image is-revealing"> -->
+                                <!-- <img src="./assets/img/Illustration5.svg" /> -->
+
+                                <div class="container" style="width: 50%;">
+
+                                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                                        <div class="carousel-inner" >
+                                            <div class="carousel-item active">
+                                                <img class="d-block w-100" style="height:40vh;"
+                                                    src="./assets/img/clip.png" alt="First slide">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block w-100" style="height:40vh;"
+                                                    src="./assets/img/back-page.png" alt="Second slide">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block w-100" style="height:40vh;"
+                                                    src="./assets/img/font-page.png" alt="Third slide">
+                                            </div>
+
+                                        </div>
+                                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button"
+                                            data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#carouselExampleControls" role="button"
+                                            data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                                    </div>
+                                    <br>
+
+                                    <!-- The dots/circles -->
+                                    <div style="text-align:center">
+                                        <span class="dot" onclick="currentSlide(1)"></span>
+                                        <span class="dot" onclick="currentSlide(2)"></span>
+                                        <span class="dot" onclick="currentSlide(3)"></span>
+                                    </div>
+                                </div>
+                            <!-- </div> -->
                             <div class="feature-extended-body">
                                 <h3 class="mt-0">Value to clients</h3>
                                 <ul>
@@ -239,8 +280,8 @@
                                         </filter>
                                     </defs>
                                     <path fill="#F6F8FA" d="M480 140v220H280zM0 220V0h200z"/>
-                                    <path fill="#FFF" d="M40 50h400v260H40z" style="mix-blend-mode:multiply;filter:url(#dropshadow-2)"/>
-                                    <path fill="#FFF" d="M40 50h400v260H40z"/>
+                                    <path fill="#FFF" d="M40 50h500v260h50z" style="mix-blend-mode:multiply;filter:url(#dropshadow-2)"/>
+                                    <path fill="#FFF" d="M40 50h500v260h50z"/>
                                     <path fill="#FFF" d="M86.225 161l62.226 62.225-62.226 62.225L24 223.225zM296 176h80v160h-80z" style="mix-blend-mode:multiply;filter:url(#dropshadow-2)"/>
                                     <path fill="#FFF" d="M86.225 161l62.226 62.225-62.226 62.225L24 223.225zM296 176h80v160h-80z"/>
                                     <path fill="#FFF" d="M245.092 218l9.378 22.092-22.093 9.378L223 227.378z" style="mix-blend-mode:multiply;filter:url(#dropshadow-2)"/>
@@ -267,8 +308,8 @@
                                         </filter>
                                     </defs>
                                     <path fill="#F6F8FA" d="M480 140v220H280zM0 220V0h200z"/>
-                                    <path fill="#FFF" d="M40 50h400v260H40z" style="mix-blend-mode:multiply;filter:url(#dropshadow-3)"/>
-                                    <path fill="#FFF" d="M40 50h400v260H40z"/>
+                                    <path fill="#FFF" d="M40 50h500v260h50z" style="mix-blend-mode:multiply;filter:url(#dropshadow-3)"/>
+                                    <path fill="#FFF" d="M40 50h500v260h50z"/>
                                     <path fill="#FFF" d="M72 248h88v88H72zM180 24h80v160h-80z" style="mix-blend-mode:multiply;filter:url(#dropshadow-3)"/>
                                     <path fill="#FFF" d="M72 248h88v88H72zM180 24h80v160h-80z"/>
                                     <path fill="#FFF" d="M277.664 261.919l-18.113 15.745-15.746-18.113 18.113-15.745z" style="mix-blend-mode:multiply;filter:url(#dropshadow-3)"/>
@@ -309,8 +350,8 @@
                                         </filter>
                                     </defs>
                                     <path fill="#F6F8FA" d="M0 220V0h200zM480 140v220H280z"/>
-                                    <path fill="#FFF" d="M40 50h400v260H40z" style="mix-blend-mode:multiply;filter:url(#dropshadow-1)"/>
-                                    <path fill="#FFF" d="M40 50h400v260H40z"/>
+                                    <path fill="#FFF" d="M40 50h500v260h50z" style="mix-blend-mode:multiply;filter:url(#dropshadow-1)"/>
+                                    <path fill="#FFF" d="M40 50h500v260h50z"/>
                                     <path fill="#FFF" d="M103 176h80v160h-80zM320 24h88v88h-88z" style="mix-blend-mode:multiply;filter:url(#dropshadow-1)"/>
                                     <path fill="#FFF" d="M103 176h80v160h-80zM320 24h88v88h-88z"/>
                                     <path fill="#FFF" d="M230.97 198l16.971 16.971-16.97 16.97L214 214.972z" style="mix-blend-mode:multiply;filter:url(#dropshadow-1)"/>
@@ -340,8 +381,8 @@
                                         </filter>
                                     </defs>
                                     <path fill="#F6F8FA" d="M480 140v220H280zM0 220V0h200z"/>
-                                    <path fill="#FFF" d="M40 50h400v260H40z" style="mix-blend-mode:multiply;filter:url(#dropshadow-2)"/>
-                                    <path fill="#FFF" d="M40 50h400v260H40z"/>
+                                    <path fill="#FFF" d="M40 50h500v260h50z" style="mix-blend-mode:multiply;filter:url(#dropshadow-2)"/>
+                                    <path fill="#FFF" d="M40 50h500v260h50z"/>
                                     <path fill="#FFF" d="M86.225 161l62.226 62.225-62.226 62.225L24 223.225zM296 176h80v160h-80z" style="mix-blend-mode:multiply;filter:url(#dropshadow-2)"/>
                                     <path fill="#FFF" d="M86.225 161l62.226 62.225-62.226 62.225L24 223.225zM296 176h80v160h-80z"/>
                                     <path fill="#FFF" d="M245.092 218l9.378 22.092-22.093 9.378L223 227.378z" style="mix-blend-mode:multiply;filter:url(#dropshadow-2)"/>
@@ -372,8 +413,8 @@
                                         </filter>
                                     </defs>
                                     <path fill="#F6F8FA" d="M480 140v220H280zM0 220V0h200z"/>
-                                    <path fill="#FFF" d="M40 50h400v260H40z" style="mix-blend-mode:multiply;filter:url(#dropshadow-3)"/>
-                                    <path fill="#FFF" d="M40 50h400v260H40z"/>
+                                    <path fill="#FFF" d="M40 50h500v260h50z" style="mix-blend-mode:multiply;filter:url(#dropshadow-3)"/>
+                                    <path fill="#FFF" d="M40 50h500v260h50z"/>
                                     <path fill="#FFF" d="M72 248h88v88H72zM180 24h80v160h-80z" style="mix-blend-mode:multiply;filter:url(#dropshadow-3)"/>
                                     <path fill="#FFF" d="M72 248h88v88H72zM180 24h80v160h-80z"/>
                                     <path fill="#FFF" d="M277.664 261.919l-18.113 15.745-15.746-18.113 18.113-15.745z" style="mix-blend-mode:multiply;filter:url(#dropshadow-3)"/>
@@ -536,7 +577,7 @@
                     </form>
                 </div>
             </section> -->
-            
+
         </main>
 
         <footer id="footer" class="footer-three">
@@ -644,6 +685,18 @@
         </footer>
     </div>
     <script src="dist/js/main.min.js"></script>
+    <script src="dist/js/extra.js"></script>
+
+    <!-- added -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
